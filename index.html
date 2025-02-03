@@ -5,11 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
     <div id="wrapper">
         <div class="container">
-            
+
+            <div class="input-container">
+                <input type="text" class="city" placeholder="Search City">
+                <button class="search">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </button>
+            </div>
+
+            <div class="weather-info">
+                <div class="location-data">
+                    <div class="location">
+                        <span class="material-symbols-outlined">
+                            location_on
+                        </span>
+                        <h4 class="country-txt">Kolkata</h4>
+                    </div>
+                    <h5 class="current-date regular-txt">Tue, 04 Feb</h5>
+                </div>
+
+                <div class="weather-summary">
+                    <img src="weather/clouds.svg" alt="" class="weather-summary-img">
+                    <div class="weather-summary-info">
+                        <h1 class="temp-txt"> 29 °C</h1>
+                        <h3 class="condition-txt regular-txt">Clouds</h3>
+                    </div>
+                </div>
+
+            </div>
+
+
+
         </div>
     </div>
 </body>
