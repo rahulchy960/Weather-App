@@ -6,6 +6,7 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id="wrapper">
@@ -20,7 +21,7 @@
                 </button>
             </div>
 
-            <div class="weather-info">
+            <div class="weather-info" style="display: none;">
                 <div class="location-data">
                     <div class="location">
                         <span class="material-symbols-outlined">
@@ -39,8 +40,72 @@
                     </div>
                 </div>
 
+                <div class="weather-summary-container">
+                    <div class="condition-items">
+                        <span class="material-symbols-outlined">
+                            water_drop
+                        </span>
+                        <div class="condition-info">
+                            <h5 class="regular-txt">Humidity</h5>
+                            <h5 class="humidity-value-txt">55%</h5>
+                        </div>
+                    </div>
+
+                    <div class="condition-items">
+                        <span class="material-symbols-outlined">
+                            air
+                        </span>
+                        <div class="condition-info">
+                            <h5 class="regular-txt">Wind Speed</h5>
+                            <h5 class="wind-value-txt">2 M/s</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="forecast-items-container">
+                    <div class="forecast-items">
+                        <h5 class="forecast-item-data regular-txt">04 Feb</h5>
+                        <img src="weather/thunderstorm.svg" class="forecast-item-img">
+                        <h5 class="forecast-item-temp">29 °C</h5>
+                    </div>
+                    <div class="forecast-items">
+                        <h5 class="forecast-item-data regular-txt">04 Feb</h5>
+                        <img src="weather/thunderstorm.svg" class="forecast-item-img">
+                        <h5 class="forecast-item-temp">29 °C</h5>
+                    </div>
+                    <div class="forecast-items">
+                        <h5 class="forecast-item-data regular-txt">04 Feb</h5>
+                        <img src="weather/thunderstorm.svg" class="forecast-item-img">
+                        <h5 class="forecast-item-temp">29 °C</h5>
+                    </div>
+                    <div class="forecast-items">
+                        <h5 class="forecast-item-data regular-txt">04 Feb</h5>
+                        <img src="weather/thunderstorm.svg" class="forecast-item-img">
+                        <h5 class="forecast-item-temp">29 °C</h5>
+                    </div>
+                </div>
+
             </div>
 
+            <div class="search-city section-msg">
+                <img src="message/search-city.png">
+                <div>
+                    <h1>Search City</h1>
+                    <h4 class="regular-txt">
+                        Find out the weather condition of the city
+                    </h4>
+                </div>
+            </div>
+
+            <div class="not-found section-msg" style="display: none;">
+                <img class="msg-img" src="message/not-found.png">
+                <div>
+                    <h1>Search City</h1>
+                    <h4 class="regular-txt">
+                        Find out the weather condition of the city
+                    </h4>
+                </div>
+            </div>
 
 
         </div>
