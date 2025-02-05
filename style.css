@@ -127,13 +127,16 @@
     padding-bottom: 12px;
     white-space: nowrap; /* Prevents items from wrapping */
 }
+
 .forecast-items-container::-webkit-scrollbar{
     height: 8px;
 }
+
 .forecast-items-container::-webkit-scrollbar-track{
     background: rgb(0, 0, 0, .1);
     border-radius: 99px;
 }
+
 .forecast-items-container::-webkit-scrollbar-thumb{
     background: rgb(0, 0, 0, .15);
     border-radius: 99px;
@@ -158,7 +161,6 @@
     width: 35px;
     height: 35px;
 }
-
 
 .section-msg{
     display: flex;
