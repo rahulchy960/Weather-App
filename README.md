@@ -1,3 +1,3 @@
 # Weather-App
 
-<img src="assets/image.png" alt="Alt Text" width="200">
+<img src="assets/main.png" alt="Alt Text" width="200">
