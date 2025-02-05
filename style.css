@@ -8,7 +8,7 @@
     font-weight: 600;
 }
 #wrapper{
-    background: url('bg.jpg');
+    background: url('assets/bg.jpg');
     width: 100%;
     height: 100dvh;
     background-size: cover;
